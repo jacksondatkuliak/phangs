@@ -1,0 +1,8 @@
+To use readData.py:
+Create regions of background values to be averaged in Carta, then export background regions
+using statistics widget in Carta. Organize all .tsv files into folders with the name of the
+sensor that was used (ie ngc4548_irac1_gauss7p5, ngc4548_irac1_gauss15, ...) After files
+have been organized into appropiate folders, open readData.py and change the value of 
+directoryToBeScanned to the name of the root directory that contains the organized folders.
+Then run readData.py and it should leave a stats.txt file in the root directory with
+appropiately weighted background values.
